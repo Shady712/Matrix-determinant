@@ -1,0 +1,132 @@
+Detecting C OpenMP failed with the following output:
+Change Dir: C:/Users/USER/Desktop/CLion Projects/hw5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe cmTC_64c7d/fast && C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_64c7d.dir\build.make CMakeFiles/cmTC_64c7d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/USER/Desktop/CLion Projects/hw5/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64c7d.dir/OpenMPTryFlag.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -fopenmp -v   -o CMakeFiles\cmTC_64c7d.dir\OpenMPTryFlag.c.obj   -c "C:\Users\USER\Desktop\CLion Projects\hw5\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe
+Target: mingw32
+Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 5.1.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_64c7d.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1.exe -quiet -v -iprefix C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_MT -D_REENTRANT C:\Users\USER\Desktop\CLion Projects\hw5\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=pentiumpro -mthreads -auxbase-strip CMakeFiles\cmTC_64c7d.dir\OpenMPTryFlag.c.obj -version -fopenmp -o C:\Users\USER\AppData\Local\Temp\ccWv7rsD.s
+GNU C11 (tdm-1) version 5.1.0 (mingw32)
+	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include"
+ignoring duplicate directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../include"
+ignoring duplicate directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include-fixed"
+ignoring nonexistent directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed
+End of search list.
+GNU C11 (tdm-1) version 5.1.0 (mingw32)
+	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2682432a7094ac8df846b6a707cdc762
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_64c7d.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_64c7d.dir\OpenMPTryFlag.c.obj C:\Users\USER\AppData\Local\Temp\ccWv7rsD.s
+GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_64c7d.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+Linking C executable cmTC_64c7d.exe
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_64c7d.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_64c7d.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_64c7d.dir/objects.a @CMakeFiles\cmTC_64c7d.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe  -fopenmp -v    -Wl,--whole-archive CMakeFiles\cmTC_64c7d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_64c7d.exe -Wl,--out-implib,libcmTC_64c7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_64c7d.dir\linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 5.1.0 (tdm-1) 
+COMPILER_PATH=C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+Reading specs from libgomp.spec
+gcc.exe: error: libgomp.spec: No such file or directory
+CMakeFiles\cmTC_64c7d.dir\build.make:107: recipe for target 'cmTC_64c7d.exe' failed
+mingw32-make.exe[1]: *** [cmTC_64c7d.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/USER/Desktop/CLion Projects/hw5/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_64c7d/fast' failed
+mingw32-make.exe: *** [cmTC_64c7d/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: C:/Users/USER/Desktop/CLion Projects/hw5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe cmTC_47589/fast && C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_47589.dir\build.make CMakeFiles/cmTC_47589.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/USER/Desktop/CLion Projects/hw5/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47589.dir/OpenMPTryFlag.cpp.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE    -fopenmp -v   -std=gnu++1z -o CMakeFiles\cmTC_47589.dir\OpenMPTryFlag.cpp.obj -c "C:\Users\USER\Desktop\CLion Projects\hw5\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE
+Target: mingw32
+Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 5.1.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++1z' '-o' 'CMakeFiles\cmTC_47589.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_MT -D_REENTRANT C:\Users\USER\Desktop\CLion Projects\hw5\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=pentiumpro -mthreads -auxbase-strip CMakeFiles\cmTC_47589.dir\OpenMPTryFlag.cpp.obj -std=gnu++1z -version -fopenmp -o C:\Users\USER\AppData\Local\Temp\ccLFbGld.s
+GNU C++14 (tdm-1) version 5.1.0 (mingw32)
+	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include/c++"
+ignoring duplicate directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include/c++/mingw32"
+ignoring duplicate directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include/c++/backward"
+ignoring duplicate directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include"
+ignoring duplicate directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../include"
+ignoring duplicate directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include-fixed"
+ignoring nonexistent directory "C:/PROGRA~2/CODEBL~1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/mingw32
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/backward
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed
+End of search list.
+GNU C++14 (tdm-1) version 5.1.0 (mingw32)
+	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2e47d181020f054da881eda9fc3e9f75
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++1z' '-o' 'CMakeFiles\cmTC_47589.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_47589.dir\OpenMPTryFlag.cpp.obj C:\Users\USER\AppData\Local\Temp\ccLFbGld.s
+GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++1z' '-o' 'CMakeFiles\cmTC_47589.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+Linking CXX executable cmTC_47589.exe
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_47589.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_47589.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_47589.dir/objects.a @CMakeFiles\cmTC_47589.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  -fopenmp -v    -Wl,--whole-archive CMakeFiles\cmTC_47589.dir/objects.a -Wl,--no-whole-archive  -o cmTC_47589.exe -Wl,--out-implib,libcmTC_47589.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_47589.dir\linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE
+COLLECT_LTO_WRAPPER=C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 5.1.0 (tdm-1) 
+COMPILER_PATH=C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../libexec/gcc/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/PROGRA~2/CODEBL~1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+Reading specs from libgomp.spec
+G__~1.EXE: error: libgomp.spec: No such file or directory
+CMakeFiles\cmTC_47589.dir\build.make:107: recipe for target 'cmTC_47589.exe' failed
+mingw32-make.exe[1]: *** [cmTC_47589.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/USER/Desktop/CLion Projects/hw5/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_47589/fast' failed
+mingw32-make.exe: *** [cmTC_47589/fast] Error 2
+
+
+
